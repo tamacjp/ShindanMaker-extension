@@ -1,0 +1,15 @@
+{
+  "name": "診断メーカー自動実行",
+  "version": "1.0",
+  "description": "診断メーカーを開いたら自動的に診断結果ページへ移動します",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://shindanmaker.com/*"
+      ],
+      "js": [
+        "shindan.js"
+      ]
+    }
+  ]
+}
